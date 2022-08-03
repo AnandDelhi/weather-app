@@ -57,9 +57,6 @@ app.get("/weather", (req, res) => {
       condition: data.condition,
     });
   });
-  // res.send({
-  //   address: req.query.address,
-  // });
 });
 
 app.get("/products", (req, res) => {
